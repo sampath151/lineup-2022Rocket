@@ -167,7 +167,7 @@ border-left: 5px solid $primary;
   .sidebar-nav {
     position: relative;
     flex: 1;
-    max-height: 80%;
+    max-height: 74%;
     @include sidebar-width($sidebar-borders, $sidebar-width);
   }
 
@@ -244,7 +244,7 @@ border-left: 5px solid $primary;
 
     &.active {
       color: #3e3e3e;
-       border-left:5px solid #2E7E99!important;
+       border-left:5px solid #1D1C8B!important;
       @include borders($sidebar-nav-link-active-borders);
 
       .nav-icon {
@@ -254,7 +254,7 @@ border-left: 5px solid $primary;
 
     &:hover {
       color: #FFF!important;
-      background: #2E7E99;
+      background: #C35FF5;
       @include borders($sidebar-nav-link-hover-borders);
 
       .nav-icon {
@@ -429,6 +429,7 @@ border-left: 5px solid $primary;
       width: 30px;
       height: 30px;
       content: "";
+      // background-image: $sidebar-minimizer-indicator;
       background-image: $sidebar-minimizer-indicator;
       background-repeat: no-repeat;
       background-position: center;
@@ -989,7 +990,7 @@ background-color: #e2e2e2;
 
 .version-alpha{
   width:40px; border-radius:10px; 
-  background: #0293d8;
+  background: #503eff;
  color: #FFF;
  font-weight: bold;position:absolute; z-index:10000; top:10px; right:15px; font-size:10px; padding:0px; text-align:center;
 }

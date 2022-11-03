@@ -78,12 +78,12 @@
 
       .active{
         float: left;
-        border-left: 5px solid #4263C7;
+        border-left: 5px solid #1D1C8B;
         background-color: #FFF;
         width: 100%;
         height:auto;
         h5{
-          color:#4263C7;
+          color:$primary;
         }
         margin-top:0px;        
         // padding:4px 10px;

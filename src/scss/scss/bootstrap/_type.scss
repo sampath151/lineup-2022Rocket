@@ -73,7 +73,8 @@ small,
 mark,
 .mark {
   padding: $mark-padding;
-  background-color: $mark-bg;
+  // background-color: $mark-bg;
+  background: #e8e0ff;        
 }
 
 
