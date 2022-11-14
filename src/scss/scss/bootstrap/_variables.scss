@@ -317,12 +317,12 @@ $embed-responsive-aspect-ratios: join(
 
 
 
-$font-family-sans-serif:      "Roboto" !default;
+$font-family-sans-serif:      "Lato-Light" !default;
 $font-family-monospace:       "Roboto" !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
-$font-size-base:              12px!default; // Assumes the browser default, typically `16px`
+$font-size-base:              14px!default; // Assumes the browser default, typically `16px`
 $font-size-lg:                $font-size-base * .25 !default;
 $font-size-sm:                $font-size-base * .875 !default;
 
